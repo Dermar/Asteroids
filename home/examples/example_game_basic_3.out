@@ -1,0 +1,33 @@
+pygame 2.0.2 (SDL 2.0.16, Python 3.10.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Detailed Test Output Format
+Frame <id> :: spaceship_pos :: asteroid_pos_ls :: bullet_pos_ls :: fuel :: score
+Frame 0 :: spaceship 450.0,300.0,90,0 :: [asteroid_small 279.0,573.0,322,0, asteroid_large 636.0,312.0,149,1] :: [] :: 30 :: 0
+Frame 1 :: spaceship 452.6,290.3,75,0 :: [asteroid_small 281.4,574.8,322,0, asteroid_large 633.4,310.5,149,1] :: [] :: 29 :: 0
+Frame 2 :: spaceship 457.6,281.7,60,0 :: [asteroid_small 283.7,576.7,322,0, asteroid_large 630.9,308.9,149,1] :: [] :: 28 :: 0
+Frame 3 :: spaceship 464.7,274.6,45,0 :: [asteroid_small 286.1,578.5,322,0, asteroid_large 628.3,307.4,149,1] :: [] :: 27 :: 0
+Frame 4 :: spaceship 473.3,269.6,30,0 :: [asteroid_small 288.5,580.4,322,0, asteroid_large 625.7,305.8,149,1] :: [] :: 26 :: 0
+Frame 5 :: spaceship 483.0,267.0,15,0 :: [asteroid_small 290.8,582.2,322,0, asteroid_large 623.1,304.3,149,1] :: [] :: 25 :: 0
+Frame 6 :: spaceship 493.0,267.0,0,0 :: [asteroid_small 293.2,584.1,322,0, asteroid_large 620.6,302.7,149,1] :: [] :: 24 :: 0
+Frame 7 :: spaceship 502.6,269.6,345,0 :: [asteroid_small 295.5,585.9,322,0, asteroid_large 618.0,301.2,149,1] :: [] :: 23 :: 0
+75% fuel warning: 20 remaining
+Frame 8 :: spaceship 512.3,272.2,345,0 :: [asteroid_small 297.9,587.8,322,0, asteroid_large 615.4,299.6,149,1] :: [bullet 541.3,280.0,345,0] :: 20 :: 0
+Frame 9 :: spaceship 522.0,274.8,345,0 :: [asteroid_small 300.3,589.6,322,0, asteroid_large 612.9,298.1,149,1] :: [bullet 570.3,287.7,345,0] :: 19 :: 0
+Score: 100 	 [Bullet 0 has shot asteroid 1]
+Added asteroid 2
+Frame 10 :: spaceship 531.6,277.4,345,0 :: [asteroid_small 302.6,591.5,322,0, asteroid_large 120.0,449.0,113,2] :: [] :: 18 :: 100
+Frame 11 :: spaceship 541.3,280.0,345,0 :: [asteroid_small 305.0,593.3,322,0, asteroid_large 118.8,446.2,113,2] :: [] :: 17 :: 100
+50% fuel warning: 14 remaining
+Frame 12 :: spaceship 549.9,285.0,330,0 :: [asteroid_small 307.4,595.2,322,0, asteroid_large 117.7,443.5,113,2] :: [bullet 575.9,300.0,330,1] :: 14 :: 100
+Frame 13 :: spaceship 557.0,292.0,315,0 :: [asteroid_small 309.7,597.0,322,0, asteroid_large 116.5,440.7,113,2] :: [bullet 601.9,315.0,330,1, bullet 578.2,313.2,315,2] :: 11 :: 100
+Frame 14 :: spaceship 562.0,300.7,300,0 :: [asteroid_small 312.1,598.9,322,0, asteroid_large 115.3,438.0,113,2] :: [bullet 627.9,330.0,330,1, bullet 599.4,334.5,315,2, bullet 577.0,326.7,300,3] :: 8 :: 100
+Cannot shoot due to low fuel
+25% fuel warning: 7 remaining
+Frame 15 :: spaceship 564.6,310.4,285,0 :: [asteroid_small 314.5,0.7,322,0, asteroid_large 114.1,435.2,113,2] :: [bullet 653.9,345.0,330,1, bullet 620.6,355.7,315,2, bullet 592.0,352.7,300,3] :: 7 :: 100
+Cannot shoot due to low fuel
+Frame 16 :: spaceship 564.6,320.4,270,0 :: [asteroid_small 316.8,2.6,322,0, asteroid_large 113.0,432.4,113,2] :: [bullet 679.8,360.0,330,1, bullet 641.9,376.9,315,2, bullet 607.0,378.6,300,3] :: 6 :: 100
+Frame 17 :: spaceship 562.0,330.0,255,0 :: [asteroid_small 319.2,4.4,322,0, asteroid_large 111.8,429.7,113,2] :: [bullet 663.1,398.1,315,2, bullet 622.0,404.6,300,3] :: 5 :: 100
+Frame 18 :: spaceship 559.4,339.7,255,0 :: [asteroid_small 321.6,6.2,322,0, asteroid_large 110.6,426.9,113,2] :: [bullet 637.0,430.6,300,3] :: 4 :: 100
+Frame 19 :: spaceship 556.8,349.3,255,0 :: [asteroid_small 323.9,8.1,322,0, asteroid_large 109.5,424.1,113,2] :: [] :: 3 :: 100
+Frame 20 :: spaceship 554.2,359.0,255,0 :: [asteroid_small 326.3,9.9,322,0, asteroid_large 108.3,421.4,113,2] :: [] :: 2 :: 100
+Frame 21 :: spaceship 551.7,368.6,255,0 :: [asteroid_small 328.6,11.8,322,0, asteroid_large 107.1,418.6,113,2] :: [] :: 1 :: 100

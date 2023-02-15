@@ -1,0 +1,23 @@
+pygame 2.0.2 (SDL 2.0.16, Python 3.10.0)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+spaceship 12.0,56.0,45,0
+spaceship 17.0,47.3,60,0
+spaceship 19.6,37.7,75,0
+spaceship 19.6,27.7,90,0
+spaceship 17.0,18.0,105,0
+spaceship 12.0,9.4,120,0
+spaceship 4.9,2.3,135,0
+spaceship 96.3,197.3,150,0
+spaceship 86.6,194.7,165,0
+spaceship 76.6,194.7,180,0
+spaceship 67.0,197.3,195,0
+spaceship 58.3,2.3,210,0
+spaceship 51.2,9.4,225,0
+spaceship 46.2,18.0,240,0
+spaceship 43.6,27.7,255,0
+spaceship 43.6,37.7,270,0
+spaceship 46.2,47.3,285,0
+spaceship 51.2,56.0,300,0
+spaceship 58.3,63.1,315,0
+spaceship 67.0,68.1,330,0
+spaceship 76.6,70.7,345,0
